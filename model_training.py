@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the trained model
-with open('linear_regression_model.pkl', 'rb') as f:
+with open('model_performance.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Load the label encoders
