@@ -192,8 +192,8 @@ performance_df.to_pickle(filename)
 print(f"Performance metrics saved to {filename}")
 
 # Step 1: Install Streamlit and localtunnel
-!pip install streamlit
-!npm install -g localtunnel
+
+
 
 """Next, we will save the `best_model` (Linear Regression) and the `label_encoders` to pickle files. The Streamlit app will load these files to make predictions and preprocess user inputs."""
 
